@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+// {
+//   "compilerOptions": {
+//     // File Layout
+//     // "rootDir": "./src",
+//     // "outDir": "./dist",
+
+//     // Environment Settings
+//     "moduleResolution": "node",         // ESNext es ideal para React moderno
+//     "target": "esnext",         // Últimas características de JS
+//     "lib": ["dom", "dom.iterable", "esnext"], // Para React en navegador
+//     "types": ["react", "react-dom", "vite/client"],   // Si usas Vite, si no puedes dejarlo vacío
+
+//     // Other Outputs
+//     "sourceMap": true,
+//     // "declaration": true,      // Solo si vas a publicar una librería
+//     // "declarationMap": true,
+
+//     // Stricter Typechecking Options
+//     "noUncheckedIndexedAccess": true,
+//     "exactOptionalPropertyTypes": true,
+
+//     // Style Options
+//     // "noImplicitReturns": true,
+//     // "noImplicitOverride": true,
+//     // "noUnusedLocals": true,
+//     // "noUnusedParameters": true,
+//     // "noFallthroughCasesInSwitch": true,
+//     // "noPropertyAccessFromIndexSignature": true,
+
+//     // Recommended Options
+//     "strict": true,
+//     "jsx": "react-jsx",
+//     "verbatimModuleSyntax": true,
+//     "isolatedModules": true,
+//     "noUncheckedSideEffectImports": true,
+//     "moduleDetection": "force",
+//     "skipLibCheck": true
+//   },
+//   "include": ["src"],
+//   "exclude": ["node_modules", "dist"]
+// }
