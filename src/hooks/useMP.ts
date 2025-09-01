@@ -22,7 +22,7 @@ export async function useMP(
       })),
     };
     console.log("Payload para MP:", payload);
-    const response = await fetch("http://localhost:3000/payments", {
+    const response = await fetch("https://ecommerce-back-ofd9.onrender.com/payments", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
