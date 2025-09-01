@@ -11,7 +11,7 @@ Permite realizar compras simuladas con **integración de pagos a través de Merc
 - ⚡ [Vite](https://vitejs.dev/) – Bundler rápido
 - 🔷 [TypeScript](https://www.typescriptlang.org/) – Tipado estático
 - ⚛️ React (con Vite)
-- 🎨 TailwindCSS (si lo usaste)
+- 🎨 TailwindCSS
 - 🔎 Funcionalidades de **filtrado y ordenamiento** de productos
 
 ### Backend
